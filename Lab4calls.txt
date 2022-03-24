@@ -1,0 +1,119 @@
+*******************************************************
+SIn descomprimir 
+*******************************************************
+/MALWR
+b'UPX0\x00\x00\x00\x00' 0x1000 0x5000 0
+b'UPX1\x00\x00\x00\x00' 0x6000 0x1000 4096
+b'.rsrc\x00\x00\x00' 0x7000 0x1000 512
+Llamadas DLL:
+b'KERNEL32.DLL'
+Llamadas a funciones:
+	 b'LoadLibraryA'
+	 b'ExitProcess'
+	 b'GetProcAddress'
+	 b'VirtualProtect'
+Llamadas DLL:
+b'MSVCRT.dll'
+Llamadas a funciones:
+	 b'atol'
+Llamadas DLL:
+b'SHELL32.dll'
+Llamadas a funciones:
+	 b'SHChangeNotify'
+Llamadas DLL:
+b'USER32.dll'
+Llamadas a funciones:
+	 b'LoadStringA'
+Llamadas DLL:
+b'WS2_32.dll'
+Llamadas a funciones:
+	 b'closesocket'
+TimeDateStamp : Thu May 14 17:12:40 2009 UTC
+
+*******************************************************
+DESCOMPRIMIDO
+*******************************************************
+/MALWR
+b'.text\x00\x00\x00' 0x1000 0xea6 4096
+b'.rdata\x00\x00' 0x2000 0x67e 2048
+b'.data\x00\x00\x00' 0x3000 0x628 512
+b'.rsrc\x00\x00\x00' 0x4000 0x80 512
+Llamadas DLL:
+b'KERNEL32.DLL'
+Llamadas a funciones:
+	 b'CloseHandle'
+	 b'WaitForSingleObject'
+	 b'CreateEventA'
+	 b'ExitThread'
+	 b'Sleep'
+	 b'GetComputerNameA'
+	 b'CreatePipe'
+	 b'DisconnectNamedPipe'
+	 b'TerminateProcess'
+	 b'WaitForMultipleObjects'
+	 b'TerminateThread'
+	 b'CreateThread'
+	 b'CreateProcessA'
+	 b'DuplicateHandle'
+	 b'GetCurrentProcess'
+	 b'ReadFile'
+	 b'PeekNamedPipe'
+	 b'SetEvent'
+	 b'WriteFile'
+	 b'SetProcessPriorityBoost'
+	 b'SetThreadPriority'
+	 b'GetCurrentThread'
+	 b'SetPriorityClass'
+	 b'lstrcatA'
+	 b'lstrcpyA'
+	 b'GetEnvironmentVariableA'
+	 b'GetShortPathNameA'
+	 b'GetModuleFileNameA'
+	 b'GetStartupInfoA'
+	 b'GetModuleHandleA'
+Llamadas DLL:
+b'MSVCRT.dll'
+Llamadas a funciones:
+	 b'_controlfp'
+	 b'_beginthread'
+	 b'_strnicmp'
+	 b'sprintf'
+	 b'atol'
+	 b'strchr'
+	 b'free'
+	 b'malloc'
+	 b'_exit'
+	 b'_XcptFilter'
+	 b'exit'
+	 b'_acmdln'
+	 b'__getmainargs'
+	 b'_initterm'
+	 b'__setusermatherr'
+	 b'_adjust_fdiv'
+	 b'__p__commode'
+	 b'__p__fmode'
+	 b'__set_app_type'
+	 b'_except_handler3'
+	 b'_itoa'
+Llamadas DLL:
+b'SHELL32.dll'
+Llamadas a funciones:
+	 b'ShellExecuteExA'
+	 b'SHChangeNotify'
+Llamadas DLL:
+b'USER32.dll'
+Llamadas a funciones:
+	 b'LoadStringA'
+Llamadas DLL:
+b'WS2_32.dll'
+Llamadas a funciones:
+	 b'htons'
+	 b'connect'
+	 b'socket'
+	 b'WSAStartup'
+	 b'send'
+	 b'inet_addr'
+	 b'recv'
+	 b'closesocket'
+TimeDateStamp : Thu May 14 17:12:40 2009 UTC
+
